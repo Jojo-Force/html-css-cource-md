@@ -162,3 +162,31 @@
   ```
 
   
+
+* ol-li有序列表
+
+  ``` html
+  <ol>
+  	<li></li>
+  </ol>
+  ```
+
+
+
+* ul-li无序列表
+
+  ```html
+  <ul>
+  	<li></li>
+  </ul>
+  ```
+
+
+
+* img图片
+
+  ```html
+  <img src="post-img.jpg" alt="HTML code on a screen"/>
+  ```
+
+  最佳实践：必须写alt，方便搜索引擎确认图片内容。方便盲人使用网站。
