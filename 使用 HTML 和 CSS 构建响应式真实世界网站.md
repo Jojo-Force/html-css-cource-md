@@ -66,6 +66,10 @@
 
 
 
+* alt+B 在浏览器中打开网页
+
+  
+
 ##### 第三课：写第一个网页
 
 使用！+回车：生成模板
@@ -87,7 +91,7 @@
 
 
 
-##### 第四课：HTML
+##### 第四课：HTML元素
 
 ![image-20251110152822610](使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251110152822610.png)
 
@@ -186,7 +190,122 @@
 * img图片
 
   ```html
-  <img src="post-img.jpg" alt="HTML code on a screen"/>
+  <img
+    src="laura-jones.jpg"
+    alt="Headshot of Laura Jones"
+    width="50"
+    height="50"
+  />
+  ```
+  
+  最佳实践：必须写alt，方便搜索引擎确认图片内容。方便盲人使用网站。
+
+
+
+* html标签加入语言
+
+  ```html
+  <html lang="en">
   ```
 
-  最佳实践：必须写alt，方便搜索引擎确认图片内容。方便盲人使用网站。
+
+
+* head里加入meta指定字符集
+
+  ```html
+  <head>
+  	<meta charset="UTF-8"/>
+  	<title>title</title>
+  </head>
+  ```
+
+
+
+* a：链接有两种，又称为锚点
+
+  1.站内的网页
+
+  2.站外网页
+
+  ```html
+  <a href="https://developer.mozilla.org/zh-CN/docs/Web" target="_blank"
+    >MDN Web Docs </a
+  ```
+
+  _blank决定是否会打开新的页面跳转。
+
+  ```html
+  <a href="#">test</a>
+  ```
+
+  #是一个占位符，该链接不指向任何。
+
+  
+
+* 面向开发者的web网站：
+
+  [面向开发者的 Web 技术 | MDN](https://developer.mozilla.org/zh-CN/docs/Web)
+
+
+
+* 导航栏盒子nav
+
+  标识网站导航栏的盒子：
+
+  ```html
+  <nav>
+  	<a href="blog.html">Blog</a>
+  	<a href="#">Challengs</a>
+  	<a href="#">Flexbox</a>
+  	<a href="#">CSS Grid</a>
+  </nav>
+  ```
+
+  
+
+* 网站头部header
+
+  标识网站的头部或者正文的头部的盒子
+
+  ```html
+  <header>
+    <h1>📘 The Code Magazine</h1>
+    <nav>
+      <a href="blog.html">Blog</a>
+      <a href="#">Challengs</a>
+      <a href="#">Flexbox</a>
+      <a href="#">CSS Grid</a>
+    </nav>
+  </header>
+  ```
+
+
+
+* 网站正文article
+
+  标识网站的正文的盒子
+
+  ```html
+  <article>
+  <h2>Basic Language of the Web: HTML</h2>
+      <img
+        src="laura-jones.jpg"
+        alt="Headshot of Laura Jones"
+        width="50"
+        height="50"
+      />
+      ...
+  </article>
+  ```
+
+  
+
+* 网站的末尾footer
+
+  标识网站的末尾的盒子
+
+  ```html
+  <footer>Copyright &copy; 2027 by The Code Magazine.</footer>	
+  ```
+
+  
