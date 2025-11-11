@@ -530,7 +530,7 @@ CSS有三种使用方法：
 
 * RGB模型
 
-  ![image-20251111191716380](/Users/jojo/Library/Application Support/typora-user-images/image-20251111191716380.png)
+  <img src="./使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111191716380.png" alt="image-20251111191716380" style="zoom:200%;" />
 
 
 
@@ -540,13 +540,13 @@ CSS有三种使用方法：
 * 最佳实践：平时
 * 使用十六进制，当需要透明度时，使用rgba
 
-![image-20251111192121670](/Users/jojo/Library/Application Support/typora-user-images/image-20251111192121670.png)
+![image-20251111192121670](./使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111192121670.png)
 
 
 
 * 灰色：RGB三个值一样的颜色都是灰色
 
-![image-20251111192512842](/Users/jojo/Library/Application Support/typora-user-images/image-20251111192512842.png)
+![image-20251111192512842](./使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111192512842.png)
 
 
 
