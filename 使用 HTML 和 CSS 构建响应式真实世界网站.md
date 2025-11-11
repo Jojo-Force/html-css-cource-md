@@ -358,3 +358,138 @@
 * 不错的网站：HTML特殊符号代码
 
 [Glyphs | CSS-Tricks](https://css-tricks.com/snippets/html/glyphs/)
+
+
+
+##### 第五课：CSS
+
+* CSS描述了视觉风格。
+
+  
+
+* CSS规则
+
+![image-20251111142835897](使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111142835897.png)
+
+
+
+CSS有三种使用方法：
+
+* 内联CSS：inline CSS
+
+  ```html
+  <h1 style="color: blue">📘 The Code Magazine</h1>
+  ```
+
+  不要使用这种CSS。
+
+
+
+* 内部CSS：internal CSS
+
+  ```html
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>The Basic Language of the web: HTML</title>
+      <style>
+        h1 {
+          color: blue;
+        }
+      </style>
+    </head>
+     ...
+  ```
+
+  放在head里的CSS
+
+
+
+* 外部CSS：external CSS
+
+  ```html
+  <head>
+      <meta charset="UTF-8" />
+      <link href="style.css" rel="stylesheet" />
+      <title>The Basic Language of the web: HTML</title>
+  </head>
+  ```
+
+  在head里放css文件的链接
+
+
+
+* 字体
+
+  ```css
+  h1 {
+    color: blue;
+    font-size: 26px;
+    font-family: sans-serif;/* 字体 */
+    text-transform: uppercase;/* 全大写 */
+    font-style: italic;/* 斜体 */
+    text-align: center;/* 在父元素内居中 */
+  }
+  ```
+
+  
+
+* 行高
+
+  ```css
+  p {
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 1.5; /* 行高1.5倍字体大小 */
+  }
+  ```
+
+  
+
+* 多元素集中设置:List selector
+
+  ```css
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  li {
+    font-family: sans-serif;
+  }
+  ```
+
+  
+
+* 后代选择器：选择父元素为footer的p
+
+  ```css
+  footer p {
+    font-size: 10px;
+  }
+  ```
+
+
+
+
+* id选择器
+
+  id是独一无二的，只允许一个元素拥有。
+
+  HTML:
+
+  ```html
+  <p id="author">
+    Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+  </p>
+  ```
+
+  CSS:
+
+  ```css
+  #author {
+    font-size: 5px;
+  }
+  ```
+
+  
