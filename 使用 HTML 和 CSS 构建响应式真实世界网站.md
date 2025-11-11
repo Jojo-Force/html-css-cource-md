@@ -429,6 +429,7 @@ CSS有三种使用方法：
     text-transform: uppercase;/* 全大写 */
     font-style: italic;/* 斜体 */
     text-align: center;/* 在父元素内居中 */
+    font-weight: bold;/* 加粗 */
   }
   ```
 
@@ -474,7 +475,7 @@ CSS有三种使用方法：
 
 * id选择器
 
-  id是独一无二的，只允许一个元素拥有。
+  id是独一无二的，只允许一个元素拥有。尽量不使用id。
 
   HTML:
 
@@ -492,4 +493,73 @@ CSS有三种使用方法：
   }
   ```
 
+
+
+
+* class选择器
+
+  class可以有多个元素同时拥有。尽量使用class。
+
+  ```css
+  ul{
+  	list-style:none;
+  }
+  ```
+
+  ```html
+  <ul class="related">
+  </ul>
+  ```
+
   
+
+* 取消ul的黑点
+
+  ```css
+  ul{
+  	list-style:none;
+  }
+  ```
+
+  ```html
+  <ul class="related">
+  </ul>
+  ```
+
+  
+
+* RGB模型
+
+  ![image-20251111191716380](/Users/jojo/Library/Application Support/typora-user-images/image-20251111191716380.png)
+
+
+
+* rgb(0,0,0)
+* rgba(0,0,0,0.3):0.3是透明度
+* 十六进制：#00ffff，可以简写为#0ff
+* 最佳实践：平时
+* 使用十六进制，当需要透明度时，使用rgba
+
+![image-20251111192121670](/Users/jojo/Library/Application Support/typora-user-images/image-20251111192121670.png)
+
+
+
+* 灰色：RGB三个值一样的颜色都是灰色
+
+![image-20251111192512842](/Users/jojo/Library/Application Support/typora-user-images/image-20251111192512842.png)
+
+
+
+* border边框
+
+  ```css
+  
+  aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad; /* 上边框 */
+    border-bottom: 5px solid #1098ad; /* 下边框 */
+    border: 5px solid #1098ad; /* 上下左右 四个方向边框 */
+  }
+  ```
+
+  solid是连线，可以改成虚线dashed等别的样式
