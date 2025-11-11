@@ -64,7 +64,27 @@
 
 ![image-20251110143228543](使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251110143228543.png)
 
+* 安装Image preview：html图片预览
 
+![image-20251111131809696](使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111131809696.png)
+
+
+
+* 安装color highlight：高亮CSS颜色，可视化
+
+  ![image-20251111131954132](使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111131954132.png)
+
+
+
+* 安装Auto Rename Tag:同时修改<xx>和</xx>
+
+![image-20251111132243159](使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111132243159.png)
+
+
+
+* 安装live server：本地启动网页，支持html修改后，自动更新网页
+
+![image-20251111132513202](使用 HTML 和 CSS 构建响应式真实世界网站.assets/image-20251111132513202.png)
 
 * alt+B 在浏览器中打开网页
 
@@ -308,4 +328,33 @@
   <footer>Copyright &copy; 2027 by The Code Magazine.</footer>	
   ```
 
+
+
+
+* 网站的附属信息aside
+
+  标识网站的次要内容
+
+  ```html
+  <aside></aside>
+  ```
+
   
+
+* 语义semantic HTML
+
+  nav，header，footer，p本质都是div，只是为了表达语义而存在的。
+
+  事实上，可以用div来替代所有其他的元素，配合CSS实现同样的效果。
+
+  使用语义HTML的优点：
+
+  * 搜索引擎优化
+  
+  * 方便使用文字阅读器的人
+  
+    
+
+* 不错的网站：HTML特殊符号代码
+
+[Glyphs | CSS-Tricks](https://css-tricks.com/snippets/html/glyphs/)
